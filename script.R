@@ -30,7 +30,7 @@ impressions <- read_tsv("impressions.tsv")
 
 ###################################
 ######Transforming the data########
-###################################
+################################### 
 
 #creating a function to change all of the timezones in 'clicks' to UTC timezone.#
 convert_timezone <- function(data)#using seconds as time values, ie. 8 hours = 28800 seconds#
